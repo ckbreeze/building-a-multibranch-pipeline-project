@@ -9,7 +9,7 @@ pipeline {
 
     stage('npmstart') {
       steps {
-        powershell 'npm start'
+        bat 'npm start'
       }
     }
 
