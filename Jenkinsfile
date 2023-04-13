@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('npmstart') {
       steps {
         powershell 'npm start'
       }
